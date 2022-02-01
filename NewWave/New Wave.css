@@ -1,0 +1,211 @@
+@charset "UTF-8";
+
+/* すべての要素のmarginとpaddingを0に設定します */
+* {
+    margin: 0;
+    /* 要素の外側の余白を0にする */
+    padding: 0;
+    /* 要素の内側の余白を0にする */
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "游ゴシック", "YuGothic", 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', "メイリオ", "Meiryo", sans-serif;
+    /* フォントを指定する */
+}
+
+/* 全てのh1 */
+
+h1 {
+    color: #ffffff;
+    /* フォントの色を指定する */
+    font-size: 40px;
+    /* フォントの大きさを指定する */
+    font-family: 'Lobster', serif;
+    text-align: left;
+    padding-left: 180px;
+    /* 文字・画像を中央にそろえる */
+    text-shadow: 5px 5px 6px #999999;
+    line-height: 0;
+    height: 40px;
+    /* 高さを指定する */
+    padding-top: 40px;
+    background-repeat: no-repeat;
+    /* 背景画像の繰り返しを指定する */
+    background-position: top center;
+    /* 背景画像の位置を指定する */
+}
+
+
+/* headerはここ */
+header {
+    background-color: #274a78;
+}
+
+header img{
+    float: left;
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+}
+/* h2のclass title */
+
+.title {
+    color: #274a78;
+    font-size: 35px;
+    font-family: 'Lobster', serif;
+    padding: 12px;
+    padding-left: 50px;
+}
+
+/* navはここ */
+
+nav {
+    background-color: #68a9cf;
+    /* 背景色を指定する */
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 15px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    /* 文字の装飾を指定する */
+}
+
+nav a:hover {
+    color: #000000;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    /* 要素の表示形式を指定する */
+    margin-right: 40px;
+}
+
+/* sectionのclass shop */
+
+.about{
+    font-size: 20px;
+    color:#ffffff;
+    background: url(photo/back.jpeg) center / cover;
+    text-align: center;
+    padding-top: 125px;
+    height: 250px;
+}
+
+.main{
+    
+}
+
+.main p{
+    font-size: 17.5px;
+    line-height: 2.5;
+    padding-left: 70px;
+    height: 100px;
+}
+
+.post{
+    
+}
+
+.suvice{
+    
+}
+
+.survice p{
+    font-size: 25px;
+    padding-left: 100px;
+}
+
+.survice img{
+    width: 400px;
+    padding: 50px;
+    margin: 10px;
+}
+
+.request{
+    height: 200px;
+}
+
+.request p{
+    
+}
+
+.request a{
+    text-align: center;
+    display: block;
+    font-size: 30px;
+}
+
+.request a:link{
+    color: #68a9cf;
+    font-size: 30px
+}
+    
+
+.request a:visited{
+    color: #68a9cf;
+}
+
+.request a:hover{
+    color:#455765;
+}
+
+.post{
+    
+}
+
+#page_top{
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: #455765;
+  opacity: 0.6;
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 100px;
+  height: 100px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 50px;
+  color: #fff;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+.subtitle{
+    font-size: 35px;
+    padding-left: 75px;
+    font-family: 'Lobster', serif;
+    color:#a2d7dd;
+}
